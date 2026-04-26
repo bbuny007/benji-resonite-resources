@@ -55,7 +55,7 @@ now onto making it accessible from the out side i use ddns so i dont have to ope
 
 i just logged into duckdns.org (note reddit login is no more) and made one address and updated it also on page since i dont want to long term host i dont use an ip update client  
 
-For more info, methods and port forwarding i forward you to [this page](https://github.com/bbuny007/benji-resonite-resources/blob/main/pages/Resonite%20desktop%20streaming%20/opening%20up%20to%20the%20internet.md)
+For more info, methods and port forwarding i forward you to [this page](https://github.com/bbuny007/benji-resonite-resources/blob/main/pages/Resonite%20desktop%20streaming%2[0/opening%20up%20to%20the%20internet.md](https://github.com/bbuny007/benji-resonite-resources/blob/main/pages/opening%20up%20to%20the%20internet.md)
 
 now to key setup on the admin page /admin after the :8080 configuration then server setup then stream keys then the plus icon add key copy it it will be copyable again so dont worry
 
