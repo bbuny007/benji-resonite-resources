@@ -12,6 +12,7 @@ sadly it still needs like hosting a service and obs so
 
  - linux (or wsl2)
  - a way to host something off of local internet 
+ - ffmpeg (no this isnt a male preg thing)
 
 thats it
 
@@ -31,6 +32,7 @@ run this command (this will download the owncast binary)
 
 ## curl -s https://owncast.online/install.sh | bash
 
+and install ffmpeg with sudo apt install ffmpeg
 now to run it you need root also known as the administrator user
 
 on debian its the sudo comman as a prefix that makes the program run as root (it asks for your password)
@@ -51,9 +53,27 @@ if you forget your password you can delete the data folder that auto generates n
 
 now onto making it accessible from the out side i use ddns so i dont have to openly show my ip address even though my NAT in germany shows that im on some cornfield 
 
-i just logged into duckdns.org (note reddit login is no more) and made one address and updated it also on page since i dont want to long term host i dont use an ip update client 
+i just logged into duckdns.org (note reddit login is no more) and made one address and updated it also on page since i dont want to long term host i dont use an ip update client  
 
 For more info, methods and port forwarding i forward you to [this page](https://github.com/bbuny007/benji-resonite-resources/blob/main/pages/Resonite%20desktop%20streaming%20/opening%20up%20to%20the%20internet.md)
+
+now to key setup on the admin page /admin after the :8080 configuration then server setup then stream keys then the plus icon add key copy it it will be copyable again so dont worry
+
+additionally you can add quality settings in configuration then video i would only pump up the bitrate of the already availible option too 3k or 6k
+
+now go back to admin home then copy the stream link and
+
+## OBS time 
+
+go to settings stream then custom then input your key and link
+
+setup up your sources and scenes as you like 
+
+now in resonite on any video player that supports rtmp streams enter your publicly availible link of the non admin page the "stream page"
+
+after obs started streaming it should be visible
+
+
 
 
 
